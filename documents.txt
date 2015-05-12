@@ -1,0 +1,3 @@
+Firebase to host the website
+Video APIs
+Analysis - Dextro

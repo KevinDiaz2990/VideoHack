@@ -1,0 +1,24 @@
+{
+  "name": "videoapp",
+  "version": "0.0.0",
+  "authors": [
+    "Kevin Diaz Luis Calle"
+  ],
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "video",
+    "ziggeo",
+    "opentok"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
