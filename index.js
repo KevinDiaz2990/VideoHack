@@ -42,7 +42,7 @@ app.get('/data', function(request, response){
 });
 
 function init(){
-	app.listen(process.argv[2]);
-	console.log("listening at " + process.argv[2]);
+	app.listen(8080);
+	console.log("listening at " + 8080);
 }
 
