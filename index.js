@@ -5,6 +5,7 @@ var express = require('express');
 var app = express();
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
+app.set('port', (process.env.PORT || 8080));
 var apiKey = '45233072';
 var apiSecret = 'fdf23112e8361c76d92f98bae403982eafd767c8';
 
@@ -42,7 +43,7 @@ app.get('/data', function(request, response){
 });
 
 function init(){
-	app.listen(8080);
-	console.log("listening at " + 8080);
+	app.listen(app.get('port'));
+	console.log("listening at " + app.get('port'));
 }
 
