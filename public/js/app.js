@@ -1,4 +1,4 @@
-$.get("http://localhost:8080/data", function(data){
+$.get("https://glacial-journey-2279.herokuapp.com/data", function(data){
 	/*console.log(data.apiKey);
 	var session = OT.initSession(data.apiKey, data.sessionId);
 	session.on("streamCreated", function(event){
