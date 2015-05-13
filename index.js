@@ -39,7 +39,13 @@ app.get('/', function(request, response){
 
 app.get('/data', function(request, response){
 	var send = getData();
+	response.setHeader('Content-Type', 'application/json');
 	response.send(send);
+});
+
+app.get('*', function(request, response){
+
+	response.send('404 - Link not found');
 });
 
 function init(){
